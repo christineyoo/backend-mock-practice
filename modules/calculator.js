@@ -1,17 +1,24 @@
+const add = (a, b) => {
+  return a + b;
+};
 
-function add(a, b) {
-    return a + b
-  }
-  
-  function subtract(a, b) {
-    return a - b
-  }
-  
-  function multiply(a, b) {
-    return a * b;
-  }
-  
-  function divide(a, b) {
-    return a / b;
-  }
-  
+const subtract = (a, b) => {
+  return a - b;
+};
+
+const multiply = (a, b) => {
+  return a * b;
+};
+
+const divide = (a, b) => {
+  return a / b;
+};
+
+const calculatorObject = {
+  add,
+  subtract,
+  multiply,
+  divide
+};
+
+module.exports = calculatorObject;
